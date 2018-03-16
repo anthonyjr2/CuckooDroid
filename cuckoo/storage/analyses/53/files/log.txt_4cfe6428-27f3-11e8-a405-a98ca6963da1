@@ -1,0 +1,5 @@
+send()  flag = true alarmtime = 2018-03-14 09:50:47 interval = 2  curtime 2018-03-14 09:50:23
+SetAdReceiver    curtime 2018-03-14 09:50:47
+getMessage   curtime 2018-03-14 09:50:47
+parseMessage  curtime   curtime 2018-03-14 09:50:55
+GetMessageTask result is </br></br>{}</br></br>  curtime 2018-03-14 09:50:55

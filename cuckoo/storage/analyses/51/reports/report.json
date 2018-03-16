@@ -1,0 +1,189 @@
+{
+    "info": {
+        "category": "url", 
+        "package": "", 
+        "started": "2018-03-14 21:35:23", 
+        "custom": "", 
+        "machine": {
+            "shutdown_on": "2018-03-14 21:37:25", 
+            "label": "aosx_1", 
+            "manager": "Avd", 
+            "started_on": "2018-03-14 21:35:23", 
+            "id": 49, 
+            "name": "aosx_1"
+        }, 
+        "ended": "2018-03-14 21:37:25", 
+        "version": "1.2", 
+        "duration": 122, 
+        "id": 51
+    }, 
+    "procmemory": [], 
+    "network": {
+        "udp": [
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.3", 
+                "offset": 763743, 
+                "time": 26.930057048797607, 
+                "dport": 53, 
+                "sport": 45484
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.3", 
+                "offset": 764377, 
+                "time": 26.94637107849121, 
+                "dport": 53, 
+                "sport": 45509
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "64.62.142.222", 
+                "offset": 765043, 
+                "time": 26.958368062973022, 
+                "dport": 123, 
+                "sport": 53544
+            }
+        ], 
+        "irc": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 1180, 
+                "time": 35.961074113845825, 
+                "dport": 2042, 
+                "sport": 41024
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 3828, 
+                "time": 39.56680703163147, 
+                "dport": 2042, 
+                "sport": 41029
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 126518, 
+                "time": 42.26813507080078, 
+                "dport": 2042, 
+                "sport": 41032
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 249378, 
+                "time": 62.965209007263184, 
+                "dport": 2042, 
+                "sport": 41054
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 356294, 
+                "time": 65.5588960647583, 
+                "dport": 2042, 
+                "sport": 41057
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 463035, 
+                "time": 68.29914402961731, 
+                "dport": 2042, 
+                "sport": 41061
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 510185, 
+                "time": 71.26820802688599, 
+                "dport": 2042, 
+                "sport": 41065
+            }, 
+            {
+                "src": "10.0.2.15", 
+                "dst": "10.0.2.2", 
+                "offset": 633046, 
+                "time": 95.77050709724426, 
+                "dport": 2042, 
+                "sport": 41090
+            }
+        ], 
+        "hosts": [
+            "ff02::16", 
+            "ff02::1:ff12:3456", 
+            "ff02::2", 
+            "ff02::1", 
+            "64.62.142.222"
+        ], 
+        "pcap_sha256": "c5f6ad4913fd755824373d5762c46b20ba0d09748ba000daae8e032a5e6b8674", 
+        "dns": [
+            {
+                "type": "AAAA", 
+                "request": "2.android.pool.ntp.org", 
+                "answers": [
+                    {
+                        "data": "2a07:3b80:8:1:2:1:be69:0", 
+                        "type": "AAAA"
+                    }, 
+                    {
+                        "data": "2600:3c00::f03c:91ff:fe91:5dd8", 
+                        "type": "AAAA"
+                    }, 
+                    {
+                        "data": "2001:470:1f05:e58::efb6", 
+                        "type": "AAAA"
+                    }, 
+                    {
+                        "data": "2602:ff75:7:1aef:cb74:762f:927b:c855", 
+                        "type": "AAAA"
+                    }
+                ]
+            }, 
+            {
+                "type": "A", 
+                "request": "2.android.pool.ntp.org", 
+                "answers": [
+                    {
+                        "data": "162.210.110.4", 
+                        "type": "A"
+                    }, 
+                    {
+                        "data": "64.62.142.222", 
+                        "type": "A"
+                    }, 
+                    {
+                        "data": "66.135.44.92", 
+                        "type": "A"
+                    }, 
+                    {
+                        "data": "204.2.134.164", 
+                        "type": "A"
+                    }
+                ]
+            }
+        ], 
+        "domains": [
+            {
+                "ip": "198.137.202.56", 
+                "domain": "2.android.pool.ntp.org"
+            }
+        ], 
+        "sorted_pcap_sha256": "66eeb1a3f3ce29dc9f5c75cd739416c2710054360bb112fc991bab784bdf39b5", 
+        "icmp": []
+    }, 
+    "virustotal": {
+        "response_code": 0, 
+        "resource": "https://github.com/ashishb/android-malware/raw/master/towelroot/towelroot.apk", 
+        "verbose_msg": "Resource does not exist in the dataset"
+    }, 
+    "droidmon": {
+        "DexFile": [], 
+        "killed_process": [], 
+        "crypto_data": [], 
+        "TelephonyManager_listen": 

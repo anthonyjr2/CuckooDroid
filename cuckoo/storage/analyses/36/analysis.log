@@ -1,0 +1,15 @@
+2018-03-13 21:19:37,231 [root] INFO: Starting analyzer from: /data/local/tmp/ziwgi
+2018-03-13 21:19:37,236 [root] INFO: Storing results at: /data/local/tmp/wrgxvh
+2018-03-13 21:19:37,238 [root] INFO: Target is: /data/local/tmp/com.fdhgkjhrtjkjbx.model.apk
+2018-03-13 21:19:37,240 [root] INFO: No analysis package specified, trying to detect it automagically
+2018-03-13 21:19:37,243 [root] INFO: Automatically selected analysis package "apk"
+2018-03-13 21:19:38,222 [root] INFO: Started auxiliary module FileCollector
+2018-03-13 21:19:38,235 [root] INFO: Started auxiliary module Screenshots
+2018-03-13 21:19:38,255 [root] INFO: Started auxiliary module TouchSimulator
+2018-03-13 21:19:38,369 [root] INFO: installing sample on emulator: pm install /data/local/tmp/com.fdhgkjhrtjkjbx.model.apk
+2018-03-13 21:19:44,109 [root] INFO: Success
+
+2018-03-13 21:19:44,116 [root] INFO: finished
+2018-03-13 21:19:44,119 [root] INFO: executing sample on emulator:adb shell am start -n com.fdhgkjhrtjkjbx.model/com.fdhgkjhrtjkjbx.model.LoadActivity
+2018-03-13 21:21:43,418 [root] INFO: Analysis timeout hit, terminating analysis
+2018-03-13 21:21:43,656 [root] INFO: Analysis completed

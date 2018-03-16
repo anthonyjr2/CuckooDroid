@@ -1,0 +1,11 @@
+.idea/
+.pyc
+.idea/workspace.xml
+
+web_android/analysis/__init__.pyc
+
+*.pyc
+
+.idea/misc.xml
+
+*.pyc

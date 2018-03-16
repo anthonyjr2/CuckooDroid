@@ -1,0 +1,4 @@
+send()  flag = true alarmtime = 2018-03-13 09:20:40 interval = 2  curtime 2018-03-13 09:20:39
+send()  flag = true alarmtime = 2018-03-13 09:21:01 interval = 2  curtime 2018-03-13 09:20:56
+send()  flag = true alarmtime = 2018-03-13 09:21:11 interval = 2  curtime 2018-03-13 09:21:06
+SetAdReceiver    curtime 2018-03-13 09:21:11
