@@ -1,1 +1,1 @@
-# CuckooDroid
+Instructions will be posted shortly.
