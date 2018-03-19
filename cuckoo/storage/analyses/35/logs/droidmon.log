@@ -1,7 +1,0 @@
-{"timestamp":1520990149952,"result":"false","class":"java.io.File","method":"exists","type":"file","this":{"path":"\/data\/data\/com.google.progress\/cache"},"args":[]}
-{"timestamp":1520990149959,"result":"false","class":"java.io.File","method":"exists","type":"file","this":{"path":"\/data\/data\/com.google.progress\/cache"},"args":[]}
-{"timestamp":1520990149975,"result":"false","class":"java.io.File","method":"exists","type":"file","this":{"path":"\/data\/data\/com.google.progress\/cache\/com.android.renderscript.cache"},"args":[]}
-{"timestamp":1520990150035,"result":"false","class":"android.os.SystemProperties","method":"get","type":"content","args":["viewancestor.profile_rendering","false"]}
-{"timestamp":1520990150042,"class":"android.app.ContextImpl","method":"registerReceiver","type":"binder","args":[{"mDebugUnregister":false},{"mPriority":0,"mActions":["android.intent.action.SCREEN_OFF","android.intent.action.SCREEN_ON"],"mHasPartialTypes":false}]}
-{"timestamp":1520990150082,"class":"android.app.ContextImpl","method":"registerReceiver","type":"binder","args":[{"mDebugUnregister":false},{"mPriority":0,"mActions":["android.intent.action.SCREEN_OFF","android.intent.action.SCREEN_ON"],"mHasPartialTypes":false}]}
-{"timestamp":1520990150204,"result":{"mRemote":{"mSelf":{"referent":{}},"mObject":705559784,"mOrgue":705983032}},"hooked_method":"getITelephony","hooked_class":"android.telephony.TelephonyManager","args":[],"class":"java.lang.reflect.Method","method":"invoke","type":"reflection"}
