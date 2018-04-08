@@ -17,4 +17,28 @@ All credit goes to Idan Revivo - idanr1986@gmail.com (twitter: idanr86)
 Modifications made and compiled by Anthony Muratore - anthonymuratore@outlook.com
 
 
-Installation instructions will be updated shortly.
+Instructions:
+
+AVDs can be created in ~/Android/Sdk/tools/bin/avdmanager using the command
+./avdmanager
+
+./avdmanager create avd -n "aosx" -k "system-images;android-16;default;armeabi-v7a" -c 1000M
+
+emulator -avd aosx -qemu -nand -system,size=0x1f400000,file=/home/amurato1/Android/Sdk/system-images/android-16/default/armeabi-v7a/system.img&
+// this starts the emulator normally, but the system image is not writable.
+
+
+To change reference image:
+emulator -avd aosx -writable-system -qemu -nand syst,size=0x1f400000,file=/home/amurato1/.android/avd/aosx.avd/system-qemu.img
+
+then, save the image while the VM is running:
+cp ~/.android/avd/aosx.avd/system-qemu.img /home/amurato1/Android/Sdk/system-images/android-16/default/armeabi-v7a/system.img
+
+to run django server:
+in /cuckoo/web_android/
+sudo python2 manage.py runserver 0.0.0.0:8080
+
+to run cuckoo:
+in /cuckoo/
+sudo python2 cuckoo.py
+
